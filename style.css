@@ -1,0 +1,124 @@
+body{
+    font-family: font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#search-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 92px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#inputdiv{
+    width: 700px;
+    margin-left: 220px;
+    display: flex;
+}
+
+#searchbar{
+    width: 692px;
+    height: 46px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-left: 50px;
+    transition: box-shadow .3s;
+}
+
+#searchbar:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+#nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#input-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#delete-char{
+    width: 14px;
+    height: 14px;
+}
+
+#app-logo-container{
+    display: flex;
+}
+
+.logo-svg{
+    width: 40px;
+    height: 40px;
+}
+
+#round-img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+#search-options{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border-bottom: 1px solid #ccc;
+}
+
+.focused{
+    border-bottom: 3px solid blue;
+}
+
+.pages{
+    margin: 0 5px;
+    padding: 5px 5px;
+}
+
+.svg-search{
+    width: 16px;
+    height: 16px;
+}
+
+#search-results{
+    display: flex;
+    flex-flow: column;
+}
+
+.result{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin-left: 15px;
+}
+}
+
+#result-header{
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+#result-header h2{
+    font-size: 18px;
+    color:blue;
+    margin-top: -10px;
+}
+
+#result-desc{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: -20px;
+    font-size: 13px;
+}
