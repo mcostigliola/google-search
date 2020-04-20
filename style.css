@@ -1,5 +1,5 @@
 body{
-    font-family: font-family: arial,sans-serif;
+    font-family: arial,sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -103,7 +103,6 @@ body{
     align-self: flex-start;
     margin-left: 15px;
 }
-}
 
 #result-header{
     font-size: 13px;
@@ -121,4 +120,43 @@ body{
     max-height: 300px;
     margin-top: -20px;
     font-size: 13px;
+}
+
+#yt-video{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr;
+    grid-column-gap: 1rem;
+}
+
+#yt-video-card1{
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    background-image:url(https://www.eroicafenice.com/wp-content/uploads/2018/09/registrare-canzone-rock-680x506.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#yt-video-card2{
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    background-image:url(https://static.fanpage.it/wp-content/uploads/sites/4/2020/04/mare-napoli-coronavirus-1200x1200.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#yt-video-card3{
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    background-image:url(https://www.repstatic.it/content/localirep/img/rep-napoli/2020/04/11/092617267-adeb2eb1-d885-460c-86b3-0bf6b239f8f1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
